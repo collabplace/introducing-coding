@@ -10,7 +10,8 @@ from joy import *
 Draw a circle
 
 ```py
-circle()
+c = circle()
+show(c)
 ```
 
 Circle is drawn with its center at (0, 0), that is at `x=0` and `y=0`.
@@ -20,7 +21,8 @@ The above command is same as `circle(x=0, y=0)`. Try it!
 ### Change the center of circle
 
 ```py
-circle(x=25)
+c = circle(x=25)
+show(c)
 ```
 
 This moves the circle 25 units towards positive X-axis (horizontally).
@@ -30,25 +32,29 @@ This moves the circle 25 units towards positive X-axis (horizontally).
 It can go the other direction as well.
 
 ```py
-circle(x=-25)
+c = circle(x=-25)
+show(c)
 ```
 
 ### Move the circle center vertically
 
 ```py
-circle(y=25)
+c = circle(y=25)
+show(c)
 ```
 
 It can go the other direction as well.
 
 ```py
-circle(y=-25)
+c = circle(y=-25)
+show(c)
 ```
 
 ### Change x, y center coordinates
 
 ```py
-circle(x=25, y=25)
+c = circle(x=25, y=25)
+show(c)
 ```
 
 Supported shapes:
